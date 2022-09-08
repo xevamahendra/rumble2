@@ -330,7 +330,7 @@
                     "Name": "Rumble 1",
                     "Status": "ON",
                     "Lemper Mode": "False",
-                    "Base": "0.7",
+                    "Base": "1",
                     "Balance Divider": {
                         "Status": "OFF",
                         "Divider": "1000000",
@@ -364,7 +364,7 @@
                     "Name": "Rumble 2",
                     "Status": "ON",
                     "Lemper Mode": "False",
-                    "Base": "0.5",
+                    "Base": "1.2",
                     "Balance Divider": {
                         "Status": "OFF",
                         "Divider": "1000000",
