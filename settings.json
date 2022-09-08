@@ -1,0 +1,400 @@
+{
+    "License": "contact admin Rumble",
+    "Account": {
+        "Username": "kosancamp@gmail.com",
+        "Password": "yudaaradea12345"
+    },
+    "Play Game": {
+        "Mode": "limbo",
+        "Currency": "btt",
+        "Show Price": "ON",
+        "Delay Bet(ms)": "0",
+        "Classic Display": "True"
+    },
+    "Target": {
+        "Profit (amt)": "0",
+        "Profit (%)": "0.5",
+        "Balance": "0",
+        "Lose": "0"
+    },
+    "Stopwin": {
+        "On Profit": "True",
+        "If Maxbet": "0",
+        "If Balance Drop (%)": "0",
+        "After LS": "0",
+        "After Bet": "0",
+        "After Playtime (Minutes)": "0"
+    },
+    "Repeat Play": {
+        "Status": "ON",
+        "Total Session": "5",
+        "Delay (sec)": "60"
+    },
+    "Auto WD": {
+        "Status": "OFF",
+        "Trigger Balance": "12000",
+        "Amount WD": "10000",
+        "WD To Vault": "True",
+        "Tip Username": "your pasino username",
+        "Wallet": {
+            "Is Faucetpay": "False",
+            "Address": "your wallet address"
+        }
+    },
+    "History Bet": {
+        "Status": "ON",
+        "Auto Remove": "True",
+        "Size Limit (MB)": "5"
+    },
+    "Reset Seed": {
+        "Status": "ON",
+        "At Start Game": "FALSE",
+        "After Bet": "1200",
+        "After Play (min)": "120"
+    },
+    "Bet Roll": {
+        "Random": "FALSE",
+        "Bet High": "FALSE",
+        "Switch Hi / Low": {
+            "Status": "OFF",
+            "If Win": "1",
+            "If Lose": "1"
+        }
+    },
+    "Bet Amount": {
+        "Base Bet": "0.1",
+        "Preroll Bet": "0.0000001",
+        "Shoot Bet": "1",
+        "Auto Shoot": {
+            "Status": "OFF",
+            "After Win Streak": "0",
+            "After Lose Streak": "6"
+        },
+        "Constant Divider": {
+            "Status": "OFF",
+            "Re-Calculate on Profit": "False",
+            "Divider": "5000000"
+        }
+    },
+    "Betset": {
+        "Rumble-S1": {
+            "Status": "OFF",
+            "Chance on Win": {
+                "Min": "90",
+                "Max": "93"
+            },
+            "Chance on Lose": {
+                "Min": "9",
+                "Max": "23"
+            },
+            "Reset to base if": {
+                "Win": "0",
+                "Lose": "0",
+                "Max Bet": "0",
+                "Profit": "0.00000001"
+            }
+        },
+        "Space Jumper": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": [
+                    "4",
+                    "6",
+                    "5",
+                    "2"
+                ],
+                "Max": [
+                    "29",
+                    "41",
+                    "20",
+                    "26"
+                ]
+            },
+            "Multiple Bet": {
+                "If Win": [
+                    "1.16",
+                    "1.46",
+                    "1",
+                    "1.1"
+                ],
+                "If Lose": [
+                    "1.50",
+                    "1.90",
+                    "1.30",
+                    "1.43"
+                ]
+            }
+        },
+        "JackHunter": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "10",
+                "Max": "15"
+            },
+            "Increase bet if Lose": "1.286",
+            "Trigger Change Repeat": "25",
+            "Trigger Change on LS 1": "35",
+            "Trigger Change on LS 2": "45",
+            "Trigger Change on LS 3": "55"
+        },
+        "RumbleNote": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "8",
+                "Max": "33"
+            },
+            "Increase Bet on Lose": "1.55",
+            "Reset Chance after Lose": "10",
+            "Increase Bet after Reset Chance": "1.65"
+        },
+        "Martingale": {
+            "Status": "OFF",
+            "Preroll": "2",
+            "Chance to Win": {
+                "Min": "45.5",
+                "Max": "45.5"
+            },
+            "Increase bet after": {
+                "Win": "1.05",
+                "Lose": "1.8"
+            },
+            "Reset to base if": {
+                "Win": "0",
+                "Lose": "0",
+                "Max Bet": "0",
+                "Profit": "0.00000001"
+            }
+        },
+        "Progressif": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "32",
+                "Max": "57",
+                "If Win": "1.106"
+            },
+            "Chance to Lose": {
+                "Min": "79",
+                "Max": "80",
+                "If Lose": "1.311"
+            },
+            "Reset to base if Profit": "0.00005"
+        },
+        "Sprint": {
+            "Status": "OFF",
+            "Starting Chance": "47.5",
+            "Increase Chance (%)": "0.02",
+            "Increase on LS": "3",
+            "Increase bet after": {
+                "Win": "0.8",
+                "Lose": "1.85"
+            }
+        },
+        "Sprint-X": {
+            "Status": "OFF",
+            "Chance to Win": "9.7",
+            "Base Divider": "50000",
+            "Multi": "1.10",
+            "Boost": "2",
+            "Cut Lose": {
+                "On LS": "50",
+                "Bet Divider": "5000",
+                "Multi": "1.25"
+            }
+        },
+        "R-Allemb": {
+            "Status": "OFF",
+            "Allemb Level": {
+                "Repeat": "2",
+                "Big": "10"
+            },
+            "Chance to Win 1": {
+                "Min": "45",
+                "Max": "50"
+            },
+            "Chance to Win 2": {
+                "Min": "15",
+                "Max": "25"
+            },
+            "Chance to Win 3": {
+                "Min": "35",
+                "Max": "45"
+            },
+            "Multi Factor (%)": "4"
+        },
+        "Wager": {
+            "Status": "OFF",
+            "Target Wager(%)": "1000",
+            "Mode 1": {
+                "Status": "OFF",
+                "Chance to Win": "47.97"
+            },
+            "Mode 2": {
+                "Status": "ON",
+                "Low Chance": "96.03",
+                "High Chance": "48.5",
+                "Multi Bet on LS": "2",
+                "Multi Factor": "2"
+            }
+        },
+        "Multi Rumble": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "90",
+                "Max": "92"
+            },
+            "Marti Single": {
+                "Win": "1.8",
+                "Lose": "2.5"
+            },
+            "Bet Multi": "5",
+            "Marti Multi": {
+                "Win": "1",
+                "Lose": "2.5"
+            },
+            "Reset to base": "0.000001"
+        },
+        "PO Hunter": {
+            "Status": "OFF",
+            "Start PO": {
+                "Min": "80",
+                "Max": "100",
+                "Incrase bet after": {
+                    "Win": "1",
+                    "Lose": "1.01"
+                }
+            },
+            "Finding PO": {
+                "Target PO": "2",
+                "Within Roll": "3",
+                "Switch PO": {
+                    "Min": "1.8",
+                    "Max": "2",
+                    "Multiple Base by": "500",
+                    "Incrase bet after": {
+                        "Win": "1.1",
+                        "Lose": "1.9"
+                    }
+                }
+            },
+            "Reset to base if Profit": "0.00000001"
+        },
+        "Dual Mining": {
+            "Status": "OFF",
+            "Combine Profit": "True",
+            "Mode 1": {
+                "Divider": "10000000",
+                "Chance to Win": {
+                    "Min": "10",
+                    "Max": "30"
+                },
+                "Increase bet after": {
+                    "Win": "1",
+                    "Lose": "1.25"
+                }
+            },
+            "Mode 2": {
+                "Divider": "1000000",
+                "Chance to Win": {
+                    "Min": "90",
+                    "Max": "92"
+                },
+                "Increase bet after": {
+                    "Win": "1",
+                    "Lose": "1.05"
+                }
+            }
+        },
+        "Rumble Miner": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "92",
+                "Max": "95"
+            },
+            "Multi Factor": {
+                "1st Lose": "1",
+                "Next Lose": "2.15"
+            },
+            "Recover Chance": {
+                "Minimal Chance": "48.5",
+                "Replace Chance": "47.5"
+            }
+        },
+        "Role Rumble": {
+            "Status": "ON",
+            "Reset Jump": {
+                "If Profit": "0.5",
+                "If Win": "0"
+            },
+            "Mode": [
+                {
+                    "Name": "Rumble 1",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.7",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "False"
+                    },
+                    "Continuous Bet": "False",
+                    "Increase bet after": {
+                        "Win": "1.01",
+                        "Lose": "1.11"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.0000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "94",
+                        "Max": "94"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "0.5",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0.5"
+                    }
+                },
+                {
+                    "Name": "Rumble 2",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.5",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Continuous Bet": "False",
+                    "Increase bet after": {
+                        "Win": "0.85",
+                        "Lose": "1.4"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "47.5",
+                        "Max": "47.5"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "0.8",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                }
+            ]
+        }
+    }
+}
