@@ -13,7 +13,7 @@
     },
     "Target": {
         "Profit (amt)": "0",
-        "Profit (%)": "0.5",
+        "Profit (%)": "0.3",
         "Balance": "0",
         "Lose": "0"
     },
@@ -27,7 +27,7 @@
     },
     "Repeat Play": {
         "Status": "ON",
-        "Total Session": "5",
+        "Total Session": "50000",
         "Delay (sec)": "60"
     },
     "Auto WD": {
@@ -330,7 +330,7 @@
                     "Name": "Rumble 1",
                     "Status": "ON",
                     "Lemper Mode": "False",
-                    "Base": "1",
+                    "Base": "0.8",
                     "Balance Divider": {
                         "Status": "OFF",
                         "Divider": "1000000",
